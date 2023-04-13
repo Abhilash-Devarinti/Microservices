@@ -6,3 +6,10 @@ values(10002,current_date() , 'Devarinti');
 
 insert into user_details(id,birth_dat,name)
 values(10003,current_date() , 'Reddy');
+
+insert into post(id,description,user_id)
+values (20001,'I want to learn something', 10001);
+insert into post(id,description,user_id)
+values (20002,'I want to learn something', 10002);
+insert into post(id,description,user_id)
+values (20003,'I want to learn something', 10003);
